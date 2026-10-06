@@ -1,0 +1,87 @@
+# Python environments
+.venv/
+.venv_old/
+.venv_old2/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Secrets / environment files
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Build/cache
+.vite/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local model/training temporary outputs
+wandb/
+runs/
+
+# SAM2 internal Git metadata
+ai/severity/models/sam2_repo/.git/
+
+# SAM2 build artifacts
+ai/severity/models/sam2_repo/build/
+ai/severity/models/sam2_repo/*.egg-info/
+
+# Frontend dependencies
+node_modules/
+**/node_modules/
+
+# Frontend build output
+dist/
+**/dist/
+
+# SAM2 build artifacts
+ai/severity/models/sam2_repo/build/
+ai/severity/models/sam2_repo/*.egg-info/
+
+# Nested Git metadata
+cloud_deploy/.git/
+
+# Experimental severity training outputs
+ai/severity/results/general_segmentation_model/
+ai/severity/results/general_segmentation_model_v2/
+ai/severity/results/severity_model/
+ai/severity/results/severity_model_250_final/
+ai/severity/results/severity_model_general_2382/
+ai/severity/results/severity_model_v2/
+
+# Generated severity experiment results
+ai/severity/results/*
+!ai/severity/results/human_gt_unet/
+!ai/severity/results/human_gt_unet/**
+
+cloud_deploy/ai/disease/models/
+ai/disease/models/best_disease_model.pth
+
+# Local datasets
+PlantDoc-Dataset/
+PlantVillage-Dataset/

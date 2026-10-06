@@ -1,0 +1,16 @@
+{
+    "dataset": "PlantDoc",
+    "images_processed": 134,
+    "errors": 0,
+    "accuracy": 0.23134328358208955,
+    "macro_precision": 0.25773809523809527,
+    "macro_recall": 0.1309433621933622,
+    "macro_f1": 0.15488067696714314,
+    "weighted_precision": 0.4517412935323383,
+    "weighted_recall": 0.23134328358208955,
+    "weighted_f1": 0.2723556883022712,
+    "confidence_threshold": 0.7,
+    "accepted_predictions": 27,
+    "rejected_predictions": 107,
+    "acceptance_rate": 0.20149253731343283
+}

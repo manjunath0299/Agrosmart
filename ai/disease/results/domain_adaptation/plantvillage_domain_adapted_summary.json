@@ -1,0 +1,11 @@
+{
+    "model": "tf_efficientnetv2_b0",
+    "training": "domain_adaptation",
+    "dataset": "PlantVillage",
+    "split": "test",
+    "test_images": 8146,
+    "accuracy": 0.9963172109010557,
+    "weighted_precision": 0.9963330803628975,
+    "weighted_recall": 0.9963172109010557,
+    "weighted_f1": 0.9963072563838966
+}

@@ -1,0 +1,521 @@
+{
+    "database_version": "1.0-demo",
+    "status": "DEMONSTRATION_ONLY",
+  
+    "safety_notice": "Product selections are based on publicly available disease-management guidance. The amount_ml values are prototype spray-controller volumes and are NOT pesticide label rates, concentrations, or agronomic dosage recommendations. Before real-world spraying, replace these values with locally registered product label instructions and agronomist-validated application parameters.",
+  
+    "severity_volume_policy": {
+      "LOW": {
+        "amount_ml": 50,
+        "description": "Prototype demonstration volume only"
+      },
+      "MEDIUM": {
+        "amount_ml": 100,
+        "description": "Prototype demonstration volume only"
+      },
+      "HIGH": {
+        "amount_ml": 150,
+        "description": "Prototype demonstration volume only"
+      },
+      "SEVERE": {
+        "amount_ml": 200,
+        "description": "Prototype demonstration volume only"
+      }
+    },
+  
+    "treatments": [
+  
+      {
+        "crop": "Potato",
+        "disease": "Potato Early Blight",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 1,
+        "product": "Chlorothalonil-based fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Potato",
+        "disease": "Potato Early Blight",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 1,
+        "product": "Chlorothalonil-based fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Potato",
+        "disease": "Potato Early Blight",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 1,
+        "product": "Chlorothalonil-based fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Potato",
+        "disease": "Potato Early Blight",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 1,
+        "product": "Chlorothalonil-based fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Potato",
+        "disease": "Potato Late Blight",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 2,
+        "product": "Mancozeb-based fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Potato",
+        "disease": "Potato Late Blight",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 2,
+        "product": "Mancozeb-based fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Potato",
+        "disease": "Potato Late Blight",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 2,
+        "product": "Mancozeb-based fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Potato",
+        "disease": "Potato Late Blight",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 2,
+        "product": "Mancozeb-based fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Bacterial spot",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 3,
+        "product": "Copper-based bactericide/fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Bacterial spot",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 3,
+        "product": "Copper-based bactericide/fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Bacterial spot",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 3,
+        "product": "Copper-based bactericide/fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Bacterial spot",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 3,
+        "product": "Copper-based bactericide/fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Early blight",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 1,
+        "product": "Chlorothalonil-based fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Early blight",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 1,
+        "product": "Chlorothalonil-based fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Early blight",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 1,
+        "product": "Chlorothalonil-based fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Early blight",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 1,
+        "product": "Chlorothalonil-based fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Late blight",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 2,
+        "product": "Mancozeb-based fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Late blight",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 2,
+        "product": "Mancozeb-based fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Late blight",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 2,
+        "product": "Mancozeb-based fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Late blight",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 2,
+        "product": "Mancozeb-based fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Leaf Mold",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 4,
+        "product": "Copper-based fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Leaf Mold",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 4,
+        "product": "Copper-based fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Leaf Mold",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 4,
+        "product": "Copper-based fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Tomato",
+        "disease": "Tomato - Leaf Mold",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 4,
+        "product": "Copper-based fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Apple",
+        "disease": "Apple - Apple scab",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 1,
+        "product": "Captan-based fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Apple",
+        "disease": "Apple - Apple scab",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 1,
+        "product": "Captan-based fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Apple",
+        "disease": "Apple - Apple scab",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 1,
+        "product": "Captan-based fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Apple",
+        "disease": "Apple - Apple scab",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 1,
+        "product": "Captan-based fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Apple",
+        "disease": "Apple - Black rot",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 2,
+        "product": "Captan-based fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Apple",
+        "disease": "Apple - Black rot",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 2,
+        "product": "Captan-based fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Apple",
+        "disease": "Apple - Black rot",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 2,
+        "product": "Captan-based fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Apple",
+        "disease": "Apple - Black rot",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 2,
+        "product": "Captan-based fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Apple",
+        "disease": "Apple - Cedar apple rust",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 3,
+        "product": "Myclobutanil-based fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Apple",
+        "disease": "Apple - Cedar apple rust",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 3,
+        "product": "Myclobutanil-based fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Apple",
+        "disease": "Apple - Cedar apple rust",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 3,
+        "product": "Myclobutanil-based fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Apple",
+        "disease": "Apple - Cedar apple rust",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 3,
+        "product": "Myclobutanil-based fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Corn",
+        "disease": "Corn - Cercospora leaf spot Gray leaf spot",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 1,
+        "product": "Strobilurin/triazole fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Corn",
+        "disease": "Corn - Cercospora leaf spot Gray leaf spot",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 1,
+        "product": "Strobilurin/triazole fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Corn",
+        "disease": "Corn - Cercospora leaf spot Gray leaf spot",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 1,
+        "product": "Strobilurin/triazole fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Corn",
+        "disease": "Corn - Cercospora leaf spot Gray leaf spot",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 1,
+        "product": "Strobilurin/triazole fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Corn",
+        "disease": "Corn - Common rust",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 2,
+        "product": "Triazole-based fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Corn",
+        "disease": "Corn - Common rust",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 2,
+        "product": "Triazole-based fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Corn",
+        "disease": "Corn - Common rust",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 2,
+        "product": "Triazole-based fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Corn",
+        "disease": "Corn - Common rust",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 2,
+        "product": "Triazole-based fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      },
+  
+      {
+        "crop": "Corn",
+        "disease": "Corn - Northern Leaf Blight",
+        "severity_level": "LOW",
+        "available": true,
+        "bottle": 3,
+        "product": "Strobilurin/triazole fungicide",
+        "amount_ml": 50,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Corn",
+        "disease": "Corn - Northern Leaf Blight",
+        "severity_level": "MEDIUM",
+        "available": true,
+        "bottle": 3,
+        "product": "Strobilurin/triazole fungicide",
+        "amount_ml": 100,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Corn",
+        "disease": "Corn - Northern Leaf Blight",
+        "severity_level": "HIGH",
+        "available": true,
+        "bottle": 3,
+        "product": "Strobilurin/triazole fungicide",
+        "amount_ml": 150,
+        "mode": "DEMO_ONLY"
+      },
+      {
+        "crop": "Corn",
+        "disease": "Corn - Northern Leaf Blight",
+        "severity_level": "SEVERE",
+        "available": true,
+        "bottle": 3,
+        "product": "Strobilurin/triazole fungicide",
+        "amount_ml": 200,
+        "mode": "DEMO_ONLY"
+      }
+  
+    ]
+  }

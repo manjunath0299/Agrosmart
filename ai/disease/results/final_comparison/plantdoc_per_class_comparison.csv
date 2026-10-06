@@ -1,0 +1,17 @@
+label,class_name,baseline_total,baseline_correct,baseline_accuracy,adapted_total,adapted_correct,adapted_accuracy,baseline_accuracy_percent,adapted_accuracy_percent,improvement_percentage_points
+37,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,0,0.0,6,5,0.8333333333333334,0.0,83.33333333333334,83.33333333333334
+31,Tomato___Late_blight,10,0,0.0,10,8,0.8,0.0,80.0,80.0
+8,Corn_(maize)___Common_rust_,10,2,0.2,10,9,0.9,20.0,90.0,70.0
+25,Squash___Powdery_mildew,6,1,0.1666666666666666,6,5,0.8333333333333334,16.66666666666666,83.33333333333334,66.66666666666669
+11,Grape___Black_rot,8,3,0.375,8,8,1.0,37.5,100.0,62.5
+36,Tomato___Tomato_mosaic_virus,10,0,0.0,10,5,0.5,0.0,50.0,50.0
+0,Apple___Apple_scab,10,2,0.2,10,7,0.7,20.0,70.0,50.0
+33,Tomato___Septoria_leaf_spot,11,0,0.0,11,5,0.4545454545454545,0.0,45.454545454545446,45.454545454545446
+18,"Pepper,_bell___Bacterial_spot",9,1,0.1111111111111111,9,5,0.5555555555555556,11.11111111111111,55.55555555555556,44.44444444444444
+2,Apple___Cedar_apple_rust,10,2,0.2,10,6,0.6,20.0,60.0,40.0
+22,Potato___Late_blight,8,0,0.0,8,3,0.375,0.0,37.5,37.5
+28,Tomato___Bacterial_spot,9,0,0.0,9,3,0.3333333333333333,0.0,33.33333333333333,33.33333333333333
+20,Potato___Early_blight,8,2,0.25,8,4,0.5,25.0,50.0,25.0
+32,Tomato___Leaf_Mold,6,1,0.1666666666666666,6,2,0.3333333333333333,16.66666666666666,33.33333333333333,16.666666666666668
+29,Tomato___Early_blight,9,3,0.3333333333333333,9,4,0.4444444444444444,33.33333333333333,44.44444444444444,11.111111111111114
+7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,2,0.5,4,2,0.5,50.0,50.0,0.0

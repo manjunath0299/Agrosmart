@@ -1,0 +1,30 @@
+{
+    "experiment": "Plant disease domain adaptation",
+    "model": "EfficientNetV2-B0",
+    "external_dataset": "PlantDoc",
+    "plantdoc_test_images": 134,
+    "plantdoc_mapped_classes": 16,
+    "original_model": {
+        "plantvillage_accuracy_percent": 99.75,
+        "plantdoc_accuracy_percent": 14.18,
+        "plantdoc_weighted_precision_percent": 35.66,
+        "plantdoc_weighted_recall_percent": 14.18,
+        "plantdoc_weighted_f1_percent": 18.71,
+        "plantdoc_macro_f1_percent": 19.96
+    },
+    "domain_adapted_model": {
+        "plantvillage_accuracy_percent": 99.63,
+        "plantdoc_accuracy_percent": 60.45,
+        "plantdoc_weighted_precision_percent": 67.26,
+        "plantdoc_weighted_recall_percent": 60.45,
+        "plantdoc_weighted_f1_percent": 62.73,
+        "plantdoc_macro_f1_percent": 62.96
+    },
+    "improvement": {
+        "plantdoc_accuracy_percentage_points": 46.27,
+        "plantdoc_weighted_f1_percentage_points": 44.019999999999996,
+        "plantdoc_macro_f1_percentage_points": 43.0,
+        "plantvillage_accuracy_percentage_points": -0.12000000000000455,
+        "relative_plantdoc_accuracy_improvement_percent": 326.30465444287734
+    }
+}

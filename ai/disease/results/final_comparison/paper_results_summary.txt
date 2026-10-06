@@ -1,0 +1,53 @@
+DOMAIN ADAPTATION RESULTS
+==========================
+
+Model:
+EfficientNetV2-B0
+
+External Dataset:
+PlantDoc
+
+PlantDoc Test Set:
+134 images
+16 mapped classes
+
+
+Original EfficientNetV2-B0:
+--------------------------------
+PlantVillage Test Accuracy : 99.75%
+PlantDoc Accuracy          : 14.18%
+PlantDoc Weighted Precision: 35.66%
+PlantDoc Weighted Recall   : 14.18%
+PlantDoc Weighted F1       : 18.71%
+PlantDoc Macro F1          : 19.96%
+
+
+Domain-Adapted EfficientNetV2-B0:
+--------------------------------
+PlantVillage Test Accuracy : 99.63%
+PlantDoc Accuracy          : 60.45%
+PlantDoc Weighted Precision: 67.26%
+PlantDoc Weighted Recall   : 60.45%
+PlantDoc Weighted F1       : 62.73%
+PlantDoc Macro F1          : 62.96%
+
+
+Domain Adaptation Improvement:
+--------------------------------
+PlantDoc Accuracy:
+14.18% -> 60.45%
+
+Improvement:
++46.27 percentage points
+
+PlantDoc Weighted F1:
+18.71% -> 62.73%
+
+Improvement:
++44.02 percentage points
+
+PlantVillage Accuracy:
+99.75% -> 99.63%
+
+Change:
+-0.12 percentage points

@@ -1,0 +1,83 @@
+{
+    "dataset": "PlantDoc",
+    "images": 134,
+    "accuracy": 0.23134328358208955,
+    "macro_precision": 0.4510416666666666,
+    "macro_recall": 0.22915088383838383,
+    "macro_f1": 0.27104118469250044,
+    "weighted_precision": 0.4517412935323383,
+    "weighted_recall": 0.23134328358208955,
+    "weighted_f1": 0.2723556883022712,
+    "thresholds": [
+        {
+            "threshold": 0.5,
+            "accepted_images": 52,
+            "rejected_images": 82,
+            "acceptance_rate": 0.3880597014925373,
+            "accepted_accuracy": 0.3269230769230769
+        },
+        {
+            "threshold": 0.55,
+            "accepted_images": 47,
+            "rejected_images": 87,
+            "acceptance_rate": 0.35074626865671643,
+            "accepted_accuracy": 0.3191489361702128
+        },
+        {
+            "threshold": 0.6,
+            "accepted_images": 40,
+            "rejected_images": 94,
+            "acceptance_rate": 0.29850746268656714,
+            "accepted_accuracy": 0.3
+        },
+        {
+            "threshold": 0.65,
+            "accepted_images": 35,
+            "rejected_images": 99,
+            "acceptance_rate": 0.26119402985074625,
+            "accepted_accuracy": 0.3142857142857143
+        },
+        {
+            "threshold": 0.7,
+            "accepted_images": 27,
+            "rejected_images": 107,
+            "acceptance_rate": 0.20149253731343283,
+            "accepted_accuracy": 0.4074074074074074
+        },
+        {
+            "threshold": 0.75,
+            "accepted_images": 20,
+            "rejected_images": 114,
+            "acceptance_rate": 0.14925373134328357,
+            "accepted_accuracy": 0.4
+        },
+        {
+            "threshold": 0.8,
+            "accepted_images": 11,
+            "rejected_images": 123,
+            "acceptance_rate": 0.08208955223880597,
+            "accepted_accuracy": 0.5454545454545454
+        },
+        {
+            "threshold": 0.85,
+            "accepted_images": 8,
+            "rejected_images": 126,
+            "acceptance_rate": 0.05970149253731343,
+            "accepted_accuracy": 0.5
+        },
+        {
+            "threshold": 0.9,
+            "accepted_images": 3,
+            "rejected_images": 131,
+            "acceptance_rate": 0.022388059701492536,
+            "accepted_accuracy": 0.6666666666666666
+        },
+        {
+            "threshold": 0.95,
+            "accepted_images": 2,
+            "rejected_images": 132,
+            "acceptance_rate": 0.014925373134328358,
+            "accepted_accuracy": 0.5
+        }
+    ]
+}

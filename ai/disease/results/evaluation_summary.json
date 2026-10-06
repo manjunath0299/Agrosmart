@@ -1,0 +1,14 @@
+{
+    "model": "tf_efficientnetv2_b0",
+    "test_images": 8146,
+    "num_classes": 38,
+    "accuracy": 0.9975448072673705,
+    "macro_precision": 0.9963516611864887,
+    "macro_recall": 0.9969479209568085,
+    "macro_f1": 0.9966391062368897,
+    "weighted_precision": 0.9975624525962453,
+    "weighted_recall": 0.9975448072673705,
+    "weighted_f1": 0.9975476129331854,
+    "evaluation_time_seconds": 26.320127248764038,
+    "incorrect_predictions": 20
+}

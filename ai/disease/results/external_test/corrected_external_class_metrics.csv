@@ -1,0 +1,17 @@
+class,precision,recall,f1,support
+Apple___Apple_scab,1.0,0.2,0.3333333333333333,10
+Apple___Cedar_apple_rust,0.6666666666666666,0.2,0.3076923076923077,10
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5,0.5,0.5,4
+Corn_(maize)___Common_rust_,0.6666666666666666,0.2,0.3076923076923077,10
+Grape___Black_rot,0.75,0.375,0.5,8
+"Pepper,_bell___Bacterial_spot",0.3333333333333333,0.1111111111111111,0.16666666666666666,9
+Potato___Early_blight,0.5,0.25,0.3333333333333333,8
+Potato___Late_blight,0.0,0.0,0.0,8
+Squash___Powdery_mildew,1.0,0.16666666666666666,0.2857142857142857,6
+Tomato___Bacterial_spot,0.0,0.0,0.0,9
+Tomato___Early_blight,0.3,0.3333333333333333,0.3157894736842105,9
+Tomato___Late_blight,0.5,0.8,0.6153846153846154,10
+Tomato___Leaf_Mold,0.0,0.0,0.0,6
+Tomato___Septoria_leaf_spot,0.5,0.36363636363636365,0.42105263157894735,11
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.5,0.16666666666666666,0.25,6
+Tomato___Tomato_mosaic_virus,0.0,0.0,0.0,10

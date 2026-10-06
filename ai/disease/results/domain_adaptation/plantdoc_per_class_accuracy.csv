@@ -1,0 +1,17 @@
+label,class_name,total_images,correct,accuracy
+0,Apple___Apple_scab,10,7,0.7
+2,Apple___Cedar_apple_rust,10,6,0.6
+7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,2,0.5
+8,Corn_(maize)___Common_rust_,10,9,0.9
+11,Grape___Black_rot,8,8,1.0
+18,"Pepper,_bell___Bacterial_spot",9,5,0.5555555555555556
+20,Potato___Early_blight,8,4,0.5
+22,Potato___Late_blight,8,3,0.375
+25,Squash___Powdery_mildew,6,5,0.8333333333333334
+28,Tomato___Bacterial_spot,9,3,0.3333333333333333
+29,Tomato___Early_blight,9,4,0.4444444444444444
+31,Tomato___Late_blight,10,8,0.8
+32,Tomato___Leaf_Mold,6,2,0.3333333333333333
+33,Tomato___Septoria_leaf_spot,11,5,0.45454545454545453
+36,Tomato___Tomato_mosaic_virus,10,5,0.5
+37,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,5,0.8333333333333334

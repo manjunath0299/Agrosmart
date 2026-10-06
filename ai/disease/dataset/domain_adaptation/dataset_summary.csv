@@ -1,0 +1,7 @@
+dataset,images
+PlantVillage train,38013
+PlantDoc train,1189
+Combined train,39202
+PlantVillage validation,8146
+PlantDoc validation,210
+Combined validation,8356

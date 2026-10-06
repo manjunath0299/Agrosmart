@@ -1,0 +1,14 @@
+{
+    "model": "Original EfficientNetV2-B0",
+    "dataset": "PlantDoc",
+    "test_images": 134,
+    "mapped_classes": 16,
+    "accuracy": 0.1417910447761194,
+    "weighted_precision": 0.356592039800995,
+    "weighted_recall": 0.1417910447761194,
+    "weighted_f1": 0.18706999991367626,
+    "macro_precision_16_classes": 0.3651041666666666,
+    "macro_recall_16_classes": 0.15642361111111108,
+    "macro_f1_16_classes": 0.19956742818584924,
+    "model_path": "C:\\smart_agriculture\\ai\\disease\\models\\best_disease_model.pth"
+}

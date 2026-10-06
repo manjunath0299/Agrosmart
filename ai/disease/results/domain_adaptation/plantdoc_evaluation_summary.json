@@ -1,0 +1,33 @@
+{
+    "model": "tf_efficientnetv2_b0",
+    "evaluation_dataset": "PlantDoc",
+    "test_images": 134,
+    "num_classes_model": 38,
+    "mapped_test_classes": 16,
+    "accuracy": 0.6044776119402985,
+    "weighted_precision": 0.6726219566210787,
+    "weighted_recall": 0.6044776119402985,
+    "weighted_f1": 0.6273382889412648,
+    "macro_precision_38_classes": 0.28494275762077625,
+    "macro_recall_38_classes": 0.254286283891547,
+    "macro_f1_38_classes": 0.26509603634827683,
+    "mapped_classes": [
+        "Apple___Apple_scab",
+        "Apple___Cedar_apple_rust",
+        "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+        "Corn_(maize)___Common_rust_",
+        "Grape___Black_rot",
+        "Pepper,_bell___Bacterial_spot",
+        "Potato___Early_blight",
+        "Potato___Late_blight",
+        "Squash___Powdery_mildew",
+        "Tomato___Bacterial_spot",
+        "Tomato___Early_blight",
+        "Tomato___Late_blight",
+        "Tomato___Leaf_Mold",
+        "Tomato___Septoria_leaf_spot",
+        "Tomato___Tomato_mosaic_virus",
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    ],
+    "model_path": "C:\\smart_agriculture\\ai\\disease\\models\\domain_adaptation\\best_domain_adapted_model.pth"
+}

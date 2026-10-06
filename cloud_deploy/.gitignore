@@ -1,0 +1,10 @@
+.env
+.venv
+venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dataset/
+external_test/
+external_train/
