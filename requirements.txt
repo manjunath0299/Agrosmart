@@ -1,0 +1,17 @@
+# AgroSmart runtime dependencies
+# Python 3.12.x recommended
+
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+numpy
+pandas
+opencv-python
+torch
+torchvision
+timm
+pydantic
+paho-mqtt
+requests
+python-dotenv
